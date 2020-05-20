@@ -1,0 +1,14 @@
+﻿#需要提取的文件关键字
+extract_file_type=[batterystats]
+
+#需要搜索的android关键字 
+android_key_word=[OppoRpmStatsTracker: ApssSuspendRatio,OppoPowerMonitor,OppoThermalStats:,dex2oat took,getAllTopPkgName,isSoftAp,BearerAllocationStatus,getTopKernelWakeupReason,Cloud.Utils,onAttachedToWindow,horae]
+
+#需要搜索的event关键字
+event_key_word=[screen_toggled,battery_level]
+
+#需要搜索的kernel关键字
+kernel_key_word=[UTC,active wakeup source,crtc_commit,failed to suspend,alarmtimer_fired,Freezing of tasks aborted]
+
+#需要搜索的batterystats关键字
+battery_key_word=[]
